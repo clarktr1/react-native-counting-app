@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <View style={{border:"1px solid #0e0e0e",borderRadius:"16px", width:"30%", height:"50%", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
+      <View style={{border:"1px solid #0e0e1e",borderRadius:"16px", width:"30%", height:"50%", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
               <Text style={{fontSize:"1.8rem", marginBottom:"5%"}}>Counter App</Text>
       <View style={[styles.buttonContainer, {marginBottom:"10%"}]}>
         <TouchableOpacity style={styles.button} onPress={decrement}>
